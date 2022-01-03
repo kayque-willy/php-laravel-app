@@ -1,0 +1,29 @@
+---------------------------------------------------------------------------------------------------------
+
+> $  composer init //--------------// Inicia o projeto Composer, deve ser criado na raiz da pastas de todos os projetos "/www/..."
+
+> $  composer create-project laravel/laravel name-project //--------------// Cria o projeto lumen, isso cria uma subpasta com o nome do projeto "/www/name-project"
+
+---------------------------------------------------------------------------------------------------------
+
+> $  php artisan key:generate //--------------// Gera a app-key do lumen
+
+---------------------------------------------------------------------------------------------------------
+
+> $  php artisan make:model name-model --migration //--------------// Cria a model e a migration.
+
+> $  php artisan make:migration name-model //--------------// Cria a migration de acordo com o nome da tabela
+
+> $  php artisan migrate //--------------// Executa todas as migrations pendentes
+
+> $  php artisan migrate:refresh //--------------// Remove todas as tabelas e reexecuta as migrations
+
+> $  php artisan migrate:reset //--------------// Desfaz todas as migrations
+
+> $  php artisan migrate:rollback //--------------// Desfaz a ultima migration
+
+---------------------------------------------------------------------------------------------------------
+
+> $  php artisan serve //--------------// Executa o projeto direto no servidor de deploy do PHP, dessa forma não precisa executar o wamp
+
+---------------------------------------------------------------------------------------------------------

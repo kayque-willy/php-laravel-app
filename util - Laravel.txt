@@ -1,0 +1,47 @@
+// ----------------------------- LARAVEL - ARQUIVOS IMPORTANTES -----------------------------
+--> /.env 
+    # Arquivo de parametros de ambiente do laravel, conexão com banco de dados, app url, key, etc.
+
+--> /config/app.php
+    # Arquivo de configurações, para ativação do eloquent, injeção de dependencias, etc.
+
+--> /routes/web.php
+    # Arquivo de definição das rotas do app.
+
+--> /app/http/middleware/kernel.php
+    # Arquivo de definição dos middlewares. 
+
+--> /app/console/kernel.php
+    # Arquivo de configurações para adição dos comandos, KeyGenerateCommand, etc. 
+
+// ----------------------------- LARAVEL - DIRETÓRIOS -----------------------------
+--> /database/...
+    # Diretório dos arquivos do banco de dados: migrations, seeders e factories.
+
+--> /public/...
+    # Diretório onde é feito o acesso ao app pelo usuário.
+
+--> /resources/...
+    # Diretório dos arquivos das views de extensão blade (*.blade.php), css, js e localization.
+
+// ----------------------------- LARAVEL - Repository Pattern -----------------------------
+--> /app/models/...
+    # Diretório dos models do app. 
+
+--> /app/repositories/...
+    # Diretório dos repositories do app. 
+
+--> /app/services/...
+    # Diretório dos services do app. 
+
+--> /app/http/controllers/...
+    # Diretório dos controllers do app. 
+
+--> /app/providers/...
+    # Diretório dos providers do app. 
+
+--> /app/http/middlewares/...
+    # Diretório dos middleware do app. 
+
+--> /app/helpers/...
+    # Diretório dos helpers. 
