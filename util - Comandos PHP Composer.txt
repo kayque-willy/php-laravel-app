@@ -2,11 +2,11 @@
 
 > $  composer init //--------------// Inicia o projeto Composer, deve ser criado na raiz da pastas de todos os projetos "/www/..."
 
-> $  composer create-project laravel/laravel name-project //--------------// Cria o projeto lumen, isso cria uma subpasta com o nome do projeto "/www/name-project"
+> $  composer create-project laravel/laravel name-project //--------------// Cria o projeto laravel, isso cria uma subpasta com o nome do projeto "/www/name-project"
 
 ---------------------------------------------------------------------------------------------------------
 
-> $  php artisan key:generate //--------------// Gera a app-key do lumen
+> $  php artisan key:generate //--------------// Gera a app-key
 
 ---------------------------------------------------------------------------------------------------------
 
