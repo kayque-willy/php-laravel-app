@@ -2,6 +2,9 @@
 --> /.env 
     # Arquivo de parametros de ambiente do laravel, conexão com banco de dados, app url, key, etc.
 
+--> /.package.json 
+    # Arquivo de dependencias do node.js que também são usadas no laravel.
+
 --> /config/app.php
     # Arquivo de configurações, para ativação do eloquent, injeção de dependencias, etc.
 
