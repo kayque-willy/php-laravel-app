@@ -18,14 +18,15 @@
     # Arquivo de configurações para adição dos comandos, KeyGenerateCommand, etc. 
 
 // ----------------------------- LARAVEL - DIRETÓRIOS -----------------------------
---> /database/...
-    # Diretório dos arquivos do banco de dados: migrations, seeders e factories.
 
 --> /public/...
     # Diretório onde é feito o acesso ao app pelo usuário.
 
 --> /resources/...
     # Diretório dos arquivos das views de extensão blade (*.blade.php), css, js e localization.
+
+--> /database/...
+    # Diretório dos arquivos do banco de dados: migrations, seeders e factories.
 
 // ----------------------------- LARAVEL - Repository Pattern -----------------------------
 --> /app/models/...
